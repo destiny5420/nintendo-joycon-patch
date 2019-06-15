@@ -14,7 +14,7 @@ Preset:
   m_Properties:
   - target: {fileID: 0}
     propertyPath: m_Axes.Array.size
-    value: 25
+    value: 24
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Axes.Array.data[0].m_Name
@@ -1454,65 +1454,5 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Axes.Array.data[23].joyNum
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Axes.Array.data[24].m_Name
-    value: 4P_D
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Axes.Array.data[24].descriptiveName
-    value: 
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Axes.Array.data[24].descriptiveNegativeName
-    value: 
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Axes.Array.data[24].negativeButton
-    value: 
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Axes.Array.data[24].positiveButton
-    value: 
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Axes.Array.data[24].altNegativeButton
-    value: 
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Axes.Array.data[24].altPositiveButton
-    value: joystick 4 button 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Axes.Array.data[24].gravity
-    value: 1000
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Axes.Array.data[24].dead
-    value: 0.001
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Axes.Array.data[24].sensitivity
-    value: 1000
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Axes.Array.data[24].snap
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Axes.Array.data[24].invert
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Axes.Array.data[24].type
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Axes.Array.data[24].axis
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Axes.Array.data[24].joyNum
     value: 0
     objectReference: {fileID: 0}
