@@ -1,0 +1,13 @@
+.vscode/
+*.vs
+*.csproj
+*.sln
+Library/
+Temp/
+UnityPackageManager
+Logs/
+obj/
+Packages/
+
+Assets/Test
+Assets/Test.meta
