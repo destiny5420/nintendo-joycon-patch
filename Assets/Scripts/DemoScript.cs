@@ -10,17 +10,29 @@ public class DemoScript : MonoBehaviour
     void Start()
     {
         NintendoJoyconManager.Init();
-        NintendoJoyconManager.OnRegistCallback(NintendoJoyconManager.NINTENDO_KEY_TYPE.Player02_A, OnClick_A_02);
-        NintendoJoyconManager.OnRegistCallback(NintendoJoyconManager.NINTENDO_KEY_TYPE.Player04_D, OnClick_D_04);
+        NintendoJoyconManager.RegistCallback(NintendoJoyconManager.NINTENDO_KEY_TYPE.Player01_A, OnClick_A_01);
+        NintendoJoyconManager.RegistCallback(NintendoJoyconManager.NINTENDO_KEY_TYPE.Player01_B, OnClick_B_01);
+        NintendoJoyconManager.RegistCallback(NintendoJoyconManager.NINTENDO_KEY_TYPE.Player01_Y, OnClick_Y_01);
+        NintendoJoyconManager.RegistCallback(NintendoJoyconManager.NINTENDO_KEY_TYPE.Player01_X, OnClick_X_01);
     }
 
-    void OnClick_A_02(float v_value)
+    void OnClick_A_01(float v_value)
     {
-        Debug.Log("OnClick_A_02 / value: " + v_value);
+        Debug.Log("OnClick_A_01 / value: " + v_value);
     }
 
-    void OnClick_D_04(float v_value)
+    void OnClick_B_01(float v_value)
     {
-        Debug.Log("OnClick_D_04 / value: " + v_value);
+        Debug.Log("OnClick_B_01 / value: " + v_value);
+    }
+
+    void OnClick_Y_01(float v_value)
+    {
+        Debug.Log("OnClick_Y_01 / value: " + v_value);
+    }
+
+    void OnClick_X_01(float v_value)
+    {
+        Debug.Log("OnClick_X_01 / value: " + v_value);
     }
 }
