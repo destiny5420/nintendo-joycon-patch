@@ -26,7 +26,10 @@ The repository is custom tool that can help developer pair Nintendo joy-con easi
 <br>
 
 ## NintendoJoyconManager
-###### class in PaperGmaeStudio.Controller
+`class in PaperGmaeStudio.Controller`
+
+<br>
+
 * First, you must use `NintendoJoyconManager.Init()` in scripts to initialize the nintendojoycon manager. NintendoJoyconManager will automatically generate on the scene.
 ```C#
 using UnityEngine;
@@ -40,6 +43,9 @@ public class NewBehaviourScript : MonoBehaviour
     }
 }
 ```
+<p align="left">
+<img style="margin:auto;"  src="https://github.com/destiny5420/NintendoJoyconPatch/blob/develop/ReadMeSource/NintendoJoyconManagerInit.png">
+</p>
 
 <br>
 
@@ -62,3 +68,13 @@ public class NewBehaviourScript : MonoBehaviour
     }
 }
 ```
+<br>
+
+|NINTENDO_KEY_TYPE|Discription|
+|-----------------|-----------|
+|A|-XR bugs|
+|B|-Move to 2019.1|
+|C|-Documentation|
+|D|-Documentation|
+|Horizontal|-Documentation|
+|Vertical|-Shipping quality release|
