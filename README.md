@@ -72,9 +72,9 @@ public class NewBehaviourScript : MonoBehaviour
 
 |NINTENDO_KEY_TYPE|Discription|
 |-----------------|-----------|
-|A|-XR bugs|
-|B|-Move to 2019.1|
-|C|-Documentation|
-|D|-Documentation|
-|Horizontal|-Documentation|
-|Vertical|-Shipping quality release|
+|A|`Null`|
+|B|`Null`|
+|Y|`Null`|
+|X|`Null`|
+|Horizontal|`Null`|
+|Vertical|`Null`|
