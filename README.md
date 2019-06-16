@@ -54,17 +54,17 @@ public class NewBehaviourScript : MonoBehaviour
 using UnityEngine;
 using PaperGmaeStudio.Controller;
 
-public class NewBehaviourScript : MonoBehaviour
+public class DemoScript : MonoBehaviour
 {
     void Start()
     {
         NintendoJoyconManager.Init();
-        NintendoJoyconManager.OnRegistCallback(NintendoJoyconManager.NINTENDO_KEY_TYPE.Player01_A, OnClick_A_Player01);
+        NintendoJoyconManager.RegistCallback(NintendoJoyconManager.NINTENDO_KEY_TYPE.Player01_A, OnClick_A_01);
     }
 
-    void OnClick_A_Player01(float v_value)
+    void OnClick_A_01(float v_value)
     {
-        Debug.Log(v_value);
+        Debug.Log("OnClick_A_01 / value: " + v_value);
     }
 }
 ```
