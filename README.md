@@ -1,7 +1,7 @@
 # Nintendo Joycon Patch
-The repository is custom tool that can help developer pair Nintendo joy-con easily.
+The repository is custom tool that can help developer pair Nintendo joy-con easily. If you would like to use this tool, selecting latest version at tag.
 ## How to use this tool
-* Import `Tool.unitypackage` to your project.
+* Import `Tool.unitypackage` to your unity project, and your unity must support .NET Framework 3.5. You can set `Scripting Runtime Version` to change .NET version in configuration of playersettings.
 <p align="left">
 <img style="margin:auto;"  src="https://github.com/destiny5420/NintendoJoyconPatch/blob/develop/ReadMeSource/ToolUnityPackage.png">
 </p>
@@ -70,11 +70,9 @@ public class DemoScript : MonoBehaviour
 ```
 <br>
 
-|NINTENDO_KEY_TYPE|Discription|
-|-----------------|-----------|
-|A|`Null`|
-|B|`Null`|
-|Y|`Null`|
-|X|`Null`|
-|Horizontal|`Null`|
-|Vertical|`Null`|
+## NINTENDO_KEY_TYPE
+This tool have support for the following button events.
+
+<p align="left">
+<img style="margin:auto;"  src="https://github.com/destiny5420/NintendoJoyconPatch/blob/develop/ReadMeSource/NintendoJoyconRef.png">
+</p>
